@@ -6,3 +6,7 @@
 	background-color: transparent;
 	border: none;
 }
+.navbar-inverse .navbar-nav li a{
+	color: #3D1860;
+	transition: .5s all ease;
+}
