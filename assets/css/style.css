@@ -1,6 +1,47 @@
 #contact {
-    display: flex;
-    flex-direction: row;
+    padding: 100px;
+}
+
+#face,
+#twitter,
+#mail {
+    font-size: 4em;
     justify-content: space-between;
-    align-content: center;
+}
+
+.contacto {
+    justify-content: center;
+    text-align: center;
+}
+
+.contacto p {
+    justify-content: center;
+    text-align: left;
+}
+
+.caja1,
+.caja2,
+.caja3 {
+    justify-content: center;
+    text-align: center;
+}
+
+.caja1 p,
+.caja2 p,
+.caja3 p {
+    justify-content: center;
+    text-align: left;
+}
+
+.txt {
+    justify-content: center;
+    text-align: left;
+}
+
+#ubicacion {
+    justify-content: space-between;
+}
+
+#mapa {
+    margin-right: 20px;
 }
