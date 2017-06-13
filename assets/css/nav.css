@@ -10,7 +10,22 @@
 	color: #3D1860;
 	transition: .5s all ease;
 }
+
+#color{
+	color: #3D1860;
+	transition: .5s all ease;
+}
+
 .navbar-inverse .navbar-nav li a:hover{
+	color: #4FC1E9;
+	font-style: italic;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s all ease
+	text-shadow: 2px 2px #ff0000;
+}
+
+#navit li a:hover{
 	color: #4FC1E9;
 	font-style: italic;
 	font-weight: bold;

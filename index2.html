@@ -8,44 +8,101 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://use.fontawesome.com/e996786236.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Revalia" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/catalogo.css">
 </head>
 <body>
 	<section class="first-section">
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-collapse collapse">
-					<ul class="nav navbar-nav navbar-left">
-						<li><a href="#Game-planet">Logo</a></li>
-					</ul>
+					<div class="nav navbar-nav navbar-left">
+						<img src="img/logoGP.png" alt="" style="width: 70px; height: 70px">
+					</div>
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="index1.html">Nosotros <i class="fa fa-hand-spock-o" aria-hidden="true"></i></a></li>
-						<li><a href="index2.html">Catalogo <i class="fa fa-gamepad" aria-hidden="true"></i></a></li>
-						<li><a href="index3.html">Contacto <i class="fa fa-phone" aria-hidden="true"></i></a></li>
+						<li><a href="#index1.html">Nosotros <i class="fa fa-hand-spock-o" aria-hidden="true"></i></a></li>
+						<li><a href="#Catalogo">Catalogo <i class="fa fa-gamepad" aria-hidden="true"></i></a></li>
+						<li><a href="#Contacto">Contacto <i class="fa fa-phone" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 	</section>
+
+
+	<!--Slider vane-->	
+	<section id="principal" style="margin-top: 700px"> 
+		<div class="container"><br>
+    <div class="col-md-12">
+      <div id="carousel-1" class="carousel slide" data-ride="carousel">
+        
+        <!--indicadores en forma de pelotitas adentro del slide-->
+
+        <ol class="carousel-indicators">
+                             
+        </ol>
+
+        <!--contenedor del slide-->
+
+        <div class="carousel-inner" role="listbox">
+          
+          <div class="item active">
+            <img src="img/giphy-large.gif" class="img-responsive" style="width: 100%; height: 40vh" alt="" id="koa">
+
+            <div class="carousel-caption hidden-xs hidden-sm"> <!--hidden hace desaparecer la lectura en dispositivos pequeños-->
+                <h1>Novedades en video juegos!</h1>      
+            </div>
+          </div>          
+
+        </div>
+
+        <!--controles o flechas del slide-->
+
+        <a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev">
+          <span class="" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+
+        <a href="#carousel-1" class="right carousel-control" role="button" data-slide="next">
+          <span class="" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+
+      </div>
+    </div>
+  </div>    
+  </section>
 	<section class= "catalogo">
-		<div class="container">
+		<div class="container text-center">
   			<div class="row align-items-start">
-   				<div class="col-sm-4">
-      				<img src="assets/imgcatalogo/nintendoswitch.jpg" alt="nintendoswitch" id= "consola">
+   				<div class="col-sm-4 box-images">
+      				<img src="assets/imgcatalogo/ps4.jpg" alt="ps4" class="consolas img-responsive">
+      				<p>PLAY STATION 4</p>
     			</div>
-				<div class="col-sm-4">
-      				<img src="assets/imgcatalogo/ps4.jpg" alt="ps4" id="consolas">
+				<div class="col-sm-4 box-images">
+      				<img src="assets/imgcatalogo/xboxone.jpg" alt="xboxone" class="consolas img-responsive">
+      				<p>Xbox ONE</p>
     			</div>
-				<div class="col-sm-4">
-      				<img src="assets/imgcatalogo/xboxone.jpg" alt="xboxone" id="consolas">
-    			</div>
-				<div class="col-sm-4">
-      				<img src="assets/imgcatalogo/xboxone.jpg" alt="xboxone" id="consolas">
+				<div class="col-sm-4 box-images">
+      				<img src="assets/imgcatalogo/nintendoswitch.jpg" alt="xboxone" class="consolas img-responsive">
+      				<p>NINTENTO SWITCH</p>
     			</div>
   			</div>
  		</div>
+    	<div class="row box-modal noshow" id="box-modal">
+    		<div class="col-md-6 box-content" id="box-content-img">
+    			<img src="assets/imgcatalogo/ps4.jpg" alt=""> 
+    		</div>
+    		<div class="col-md-6 box-content" >
+    			<i class="fa fa-times-circle-o fa-2x close" id="close" aria-hidden="true"></i>
+    			<p id="box-content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim, beatae atque voluptatum corporis laborum dolorem sunt quibusdam, repellat tempore, odio laboriosam omnis labore, doloribus maxime totam debitis autem modi.</p>
+    			<h3 id="precio">Precio CLP XXXXXX</h3>
+    			<button type="button">Añadir al carrito <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></button>
+    		</div>
+    	</div>
+   
   	</section>
+  	<script src="assets/js/main.js"></script>
 </body>
 
 </html>
