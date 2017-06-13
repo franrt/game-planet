@@ -1,27 +1,49 @@
 .catalogo {
-    width: 100%;
-    height: 500px;
-    border-top: 270px solid #B6CDBD;
-    border-right: 500px solid transparent;
+    padding-top: 150px;
+    
 
 }
 
-#consolas {
-    width: 310px;
-    height: 104px;
-    border-radius: 10px;
-    position: relative;
-    bottom: 104px;
-    left: 90px;
-    border-top: 1px solid #3d1860;
-    border-right: 2px dotted #F4E1E1;   
-    border-bottom: 1px dashed #3d1860;
-    border-left: 4px double #F4E1E1;
-    box-shadow: 0 0 10px 10px #B6CDBD;
-
+.consolas{
+    height: 40vh;
+    border-bottom: 1px solid #3D1860;
 }
-
-#consolas:hover {
-    color: white;
+.consolas:hover {
     opacity: 0.5;
+}
+.box-images{
+    text-align: center;
+}
+/*MODAL*/
+.box-modal{
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding: 100px 80px;
+}
+.box-content{
+    padding: 60px 10px;
+    text-align: center;
+    background-color: white;
+    height: 450px;
+}
+.box-content img{
+    width: 100%
+}
+.box-content button{
+    border-radius: 5px;
+    background-color: #3D1860;
+    color: white;
+}
+.box-content p{
+    text-align: justify;
+}
+.close{
+    position: relative;
+    bottom: 50px;
+}
+.noshow{
+    display: none;
 }
