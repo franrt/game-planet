@@ -1,5 +1,7 @@
 /*caja slider by Inés Vanessa Pérez*/
-
+body{
+    background-color: #DCDCE7;
+}
 #principal{
 	background-position: center;
   background-repeat: no-repeat;
