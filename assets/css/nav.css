@@ -34,3 +34,8 @@
 	transition: .5s all ease
 	text-shadow: 2px 2px #ff0000;
 }
+
+footer{
+	background-color: #B6CDBD;
+	border: none;
+}
